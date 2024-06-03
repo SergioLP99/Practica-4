@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Contacto</h1>
+        <p>Esta es la página de contacto. Puedes contactarnos usando la información a continuación.</p>
+        <ul>
+            <li>Correo electrónico: contacto@ejemplo.com</li>
+            <li>Teléfono: 123-456-7890</li>
+        </ul>
+        <a href="{{ url_for('inicio') }}">Inicio</a>
+        <a href="{{ url_for('about') }}">Acerca de</a>
+    </div>
+</body>
+</html>
